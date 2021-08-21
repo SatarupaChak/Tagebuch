@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    tools:context=".SignUpActivity">
+
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="337sp"
+        android:layout_height="wrap_content"
+        android:hint="@string/user_name"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="430sp"
+        tools:layout_editor_absoluteY="448sp"
+        android:layout_marginBottom="40sp"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/emailAddress"
+        android:layout_width="337sp"
+        android:layout_height="wrap_content"
+        android:hint="@string/emailaddress"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="430sp"
+        tools:layout_editor_absoluteY="448sp"
+        android:layout_marginBottom="40sp"
+        android:layout_gravity="center_horizontal"
+        android:autofillHints="" />
+    <EditText
+        android:layout_width="327sp"
+        android:layout_height="59sp"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/password"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="43sp"
+        tools:layout_editor_absoluteY="324sp"
+        android:layout_marginBottom="40sp"/>
+
+    <Button
+        android:layout_width="252sp"
+        android:layout_height="61sp"
+        android:layout_gravity="center_horizontal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="88sp"
+        tools:layout_editor_absoluteY="494sp"
+        android:text="@string/take_me_to_the_woods"
+        android:layout_marginBottom="50sp"/>
+
+    <TextView
+        android:id="@+id/sign_in"
+        android:layout_width="304dp"
+        android:layout_height="wrap_content"
+        android:text="@string/gobacktologin"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+</LinearLayout>
